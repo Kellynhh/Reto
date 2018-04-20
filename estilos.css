@@ -1,6 +1,6 @@
  body{
 
- 	background-color: pink;
+ 	background-color: red;
  }
 
   h1{
@@ -64,7 +64,7 @@
     padding: 14px 28px;
     cursor: pointer;
     content: center;
-    
+
  }
  /*esta clase estamos pintando el boton al igual que la clase que sigue que se denota ".no"*/
  .si{
@@ -144,7 +144,7 @@
 
 	background-color:yellow;
 
-	color: #934343; 
+	color: #934343;
 }
 
 
@@ -157,12 +157,12 @@
 
 	display: none;
 }
- 
+
 #box2 .boton{
 
 	display: none;
 }
- 
+
 #box3 .boton{
 
 	display: none;
@@ -179,7 +179,7 @@
 #box1{
 
 	text-align: center;
-	
+
 }
 #box2{
 
@@ -189,7 +189,3 @@
 
 	text-align: center;
 }
- 
-
-
- 
