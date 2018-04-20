@@ -1,0 +1,195 @@
+ body{
+
+ 	background-color: pink;
+ }
+
+  h1{
+
+	color: black;
+
+	text-align: center;
+
+	font-size: 40px;
+ }
+
+ h2{
+
+
+ 	color:black;
+ 	text-align: center;
+
+ 	font-size: 30px;
+
+ }
+
+
+
+ h3 {
+	display: none;
+
+	font-size: 30px;
+
+	color: black;
+}
+
+ header{
+
+ 	background-color:#F76464;
+
+    padding: 15px;
+
+    border-radius: 15px;
+
+
+ }
+
+  p{
+
+ 	font-size: 40px;
+
+ 	color:#2A094C;
+ }
+
+ footer{
+
+ 	background-color: #F76464;
+	border-radius: 15px;
+ 	margin-top: 15%;
+ }
+ /*caracteristica visual del boton*/
+ .boton{
+
+ 	border-radius:45px;
+    color:#070707;
+    padding: 14px 28px;
+    cursor: pointer;
+    content: center;
+    
+ }
+ /*esta clase estamos pintando el boton al igual que la clase que sigue que se denota ".no"*/
+ .si{
+
+ 	background-color: green;
+
+ }
+ /* el hover es para darle la sombra o efecto a los botones cuando el mouse este sobre ellos*/
+ .si:hover{
+
+  background: #13B70F;
+
+ }
+
+ .no{
+
+ 	background-color: red;
+
+ }
+
+ .no:hover{
+
+  background: #610606;
+
+ }
+
+
+
+ .botones{
+
+ 	display: none;
+ }
+
+
+
+
+ .respuesta{
+
+  background-color: #3F8B87;
+  font-size: 15px;
+
+ }
+
+ .respuesta:hover{
+
+  background: #9F9A9A;
+
+ }
+ /* "(id)# mensaje, con la carasteristica de coilor, me va dar el efecto de color al  mensaje "*/
+#mensaje1{
+
+	color:#A52323;
+}
+#mensaje2{
+
+	color:#A52323;
+}
+#mensaje3{
+
+	color:#A52323;
+
+}
+ /* este id le da efecto de color a mis preguntas y a su vez hace el efecto de display para mis  preguntas*/
+#box2{
+
+	display: none;
+}
+
+#box3{
+
+	display: none;
+}
+
+/* boton de siguiente*/
+.siguiente{
+
+
+	background-color:yellow;
+
+	color: #934343; 
+}
+
+
+.siguiente:hover{
+	background: #B6EDF9
+
+
+}
+#box1 .boton{
+
+	display: none;
+}
+ 
+#box2 .boton{
+
+	display: none;
+}
+ 
+#box3 .boton{
+
+	display: none;
+}
+  #box0{
+
+  	text-align: center;
+  }
+
+  #seccion1{
+
+  	text-align: center;
+  }
+#box1{
+
+	text-align: center;
+	
+}
+#box2{
+
+	text-align: center;
+}
+#box3{
+
+	text-align: center;
+}
+ 
+
+
+ 

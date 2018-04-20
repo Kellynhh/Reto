@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Trivia</title>
+
+  <link rel="stylesheet" href="estilos.css">
+    
+</head>
+     
+  <header>
+    <!-- mensaje mostrado en la cabeza de la pagina-->
+    <h1>Mujeres Iconos de la programación en la Historia</h1>
+
+    <!--<h2>Laboratoria 201801</h2> -->
+
+  </header>
+   <!--contiene el saludo y los botones que a traves de una funsion va a desaparecer para darle entrada a las preguntas-->
+  <div id="box0">   
+	  <h3 id='bienvenida'>Bienvenida, Gracias por participar! <strong id="nombre"></strong></h3>          
+<body>
+  <h2> Veamos de que estás hecha!! estás lista? </h2>
+
+    <!-- Esta clase boton contiene el "boton si / no " que  atraves de un click interactuan mostrando su mensaje correspondiente a su vez especifica una funcion de desactivacion dependiendo del boton que el usuario elija-->
+  
+	  <button class=" boton si" id="si" onclick="botonsi();mostrarRespuestas(); sig0('box0');desactivarsi()"> SI</button>
+	  <button class=" boton no" id="no" onclick="botonno();desactivarno()"> NO</button>    
+  </div>
+    
+    <section id="seccion1">
+        <div class= "box">	 	
+	 	   <p id='despedida'></p>
+	    </div>    
+	</section>
+
+    <div id="box1">
+	  <p id= "preg1"></p>                         
+        <button class="boton respuesta" id="resp1" onclick="verdadero1(); incrementar();desactivar1()">Ada Lovelace </button>
+
+        <button class="boton respuesta" id="resp2" onclick="incorrecto1();desactivar2()"> Grace Hopper </button>
+
+        <button class="boton respuesta" id="resp3" onclick="incorrecto1();desactivar3()"> Manuela Saenz </button>
+
+        <button class="boton respuesta" id="resp4" onclick="incorrecto1();desactivar4()"> Angelina Jolie </button>
+
+        <p id="mensaje1"></p> 
+
+        <button class="boton siguiente" id="siguiente1" onclick="sig1('box1');sig2('box2')">Siguiente</button>                         
+    </div>
+
+    <div id="box2">
+	  <p id= "preg2"> </p>
+	    <button class="boton respuesta" id="resp5" onclick="incorrecto2();desactivar5()">Grace Hopper</button>
+
+        <button class="boton respuesta" id="resp6" onclick="incorrecto2();desactivar6()">Jennifer Aniston</button>
+
+        <button class="boton respuesta" id="resp7" onclick="verdadero2();incrementar();desactivar7()">Margaret Hamilton</button>
+
+        <button class="boton respuesta" id="resp8" onclick="incorrecto2();desactivar8()">Paulina Rubio</button>
+                         
+        <p id="mensaje2"></p>
+
+        <button class="boton siguiente" id="siguiente2" onclick="sig1('box2');sig3('box3')"> Siguiente</button>	                  
+	   </div>
+	                
+    <div id="box3">
+	  <p id= "preg3"> </p> 
+	    <button class="boton respuesta" id="resp9" onclick="incorrecto3();desactivar9()">Medy Kemar</button>
+
+        <button class="boton respuesta" id="resp10" onclick="incorrecto3();desactivar10()">Karen Scharz </button>
+
+        <button class="boton respuesta" id="resp11" onclick="incorrecto3();desactivar11()">Evelyn Berezin </button>
+
+        <button class="boton respuesta" id="resp12" onclick="verdadero3();incrementar();desactivar12()">Grace Murray </button>
+                         
+        <p id="mensaje3"></p>
+
+        <button class="boton siguiente" id="siguiente3" onclick="salida()">Finalizar</button>	                     
+	</div>    
+
+	<script type="text/javascript" src="app.js"></script>
+    
+</body>
+<footer>
+    <h2> LABORATORIA 201801 </h2>
+</footer>
+</html>
